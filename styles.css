@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+body {
+    font-family: "Montserrat","Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.page-content {
+    padding: 60px 30px;
+}
+
+.banner-intro {
+    background-color: #cccccc;
+    width: 100%;
+    padding: 60px 20px;
+    border-radius: 20px;
+    background: #cccccc url("https://i.ibb.co/9WfFJ66/Rectangle-3.jpg") no-repeat;
+    background-size: cover;
+}
+
+.banner-intro__title {
+    font-size: 50px;
+    line-height: 62px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin: 0 0 60px;
+}
+
+.banner-intro__info {
+    width: 600px;
+    margin: 0 auto 85px;
+    border-radius: 20px 120px 20px 120px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px 0px #ACE0F999;
+}
+
+.banner-intro__img {
+    width: 100%;
+    height: 350px;
+}
+
+.banner-intro__product-inner{
+    background-color: #ffffff;
+    padding: 45px 45px 50px;
+}
+
+.banner-intro__product-title {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 30px;
+}
+
+.banner-intro__product-text {
+    font-size: 20px;
+    line-height: 26px;
+    color: #444444;
+    width: 400px;
+    margin: 0 auto 35px;
+    text-align: center;
+
+}
+
+.banner-intro__product-price {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: block;
+    text-align: right;
+}
+
+.banner-intro__link {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+    text-decoration: none;
+    display: block;
+    width: 376px;
+    padding: 21px;
+    text-align: center;
+    margin: 0 auto 48px;
+    border-radius: 30px;
+    background: linear-gradient(270deg, #FFF1EB 0.07%, #ACE0F9 96.24%);
+}
+
+.banner-intro__node {
+    color: #ffffff;
+    line-height: 24px;
+    font-size: 20px;
+    text-align: center;
+    width: 530px;
+    margin: 0 auto;
+    text-align: center;
+}
